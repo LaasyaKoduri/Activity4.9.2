@@ -41,4 +41,8 @@ public class Animal
   {
     System.out.println("zzzzz");
   }
+
+  public void speak(){
+    System.out.println("This animal does not make any sounds")
+  }
 }
