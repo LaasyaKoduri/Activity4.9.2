@@ -19,7 +19,7 @@ public class Animal
       this.aveLifeSpan = aveLifeSpan;
     }
   
-  public void eat() 
+  public void eat()
   {
     System.out.println("This animal's diet consists of " + food + ".");
   }
@@ -34,7 +34,7 @@ public class Animal
   
   public void getLifeSpan()
   {
-     System.out.println("This animal's life span is " + aveLifeSpan + " years.");
+    System.out.println("This animal's life span is " + aveLifeSpan + " years.");
   }
   
   public void sleep()
@@ -43,6 +43,6 @@ public class Animal
   }
 
   public void speak(){
-    System.out.println("This animal does not make any sounds")
+    System.out.println("This animal does not make any sounds");
   }
 }

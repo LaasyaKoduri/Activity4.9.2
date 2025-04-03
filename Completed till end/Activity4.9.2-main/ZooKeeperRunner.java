@@ -35,26 +35,6 @@ public class ZooKeeperRunner
     Owl owl2 = new Owl("mice,insects", true, 4.0);
     owl2.eat();
 
-<<<<<<< HEAD
-    //Step 1-4: 4.9.6
-    Animal a = new Elephant("leaves, grasses, roots", false, 60.0);
-    a.isNocturnal();
-    /*This call will not work because the trumpet method is not defined for the Animal class. 
-    When considering the is-a relationship, an Animal is not always an elephant.
-    */
-    //a.trumpet();
-
-    //Step 6-7: 4.9.6
-    /* Object a2 = new Animal();
-    a2.sleep();*/
-
-    Animal a1 = new Animal();
-    a1.sleep();
-
-   
-
-     
-=======
     //Add all animals with sounds to ArrayList zoo
     zoo.add(new Giraffe("leaves", false, 25));
     zoo.add(new Elephant("grass", false, 60));
@@ -64,21 +44,29 @@ public class ZooKeeperRunner
     zoo.add(new Monkey());
 
     for(Animal animal : zoo){
-      hearTheAnimal(animal);
+    //  hearTheAnimal(animal);
     }
 
-    /* 
->>>>>>> f09483b9b83e3a9877a757a5d92de6b1e2b62a55
+
+    //Step 9: 4.9.6
+    Object o = new Object();
+    System.out.println(o.toString());
+    Elephant e = new Elephant("leaves, grasses, roots", false, 60.0);
+    System.out.println(e.toString());
+
+    /*
     tiger.swimAlone();
     tiger.huntAlone();
     tiger.isNocturnal();
     tiger.growl();
     tiger.eat();
-
+    
     
   }
   public static void hearTheAnimal(Animal currentAnimal)
     {
       currentAnimal.speak();
     }
+       */
+  }
 }
