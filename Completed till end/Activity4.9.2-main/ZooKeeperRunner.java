@@ -54,6 +54,10 @@ public class ZooKeeperRunner
     Elephant e = new Elephant("leaves, grasses, roots", false, 60.0);
     System.out.println(e.toString());
 
+    //Step 11: 4.9.6
+    Animal a3 = new Animal();
+    System.out.println(a3.toString());
+
     /*
     tiger.swimAlone();
     tiger.huntAlone();
