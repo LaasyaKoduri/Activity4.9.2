@@ -7,6 +7,12 @@ public class Monkey extends Primate
   {
     System.out.println("The monkey climbs.");
   }
+
+  //Step 22
+  public void speak(){
+    hoot();
+    howl();
+  }
   
   public void hoot()
   {

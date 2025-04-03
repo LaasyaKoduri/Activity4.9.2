@@ -7,6 +7,12 @@ public class Giraffe extends Hooved
     super(food, isNocturnal, aveLifeSpan);
     System.out.println("A new giraffe arives.");
   }
+
+  //Step 22
+  public void speak(){
+    hum();
+  }
+
   public void hum()
   {
     System.out.println("The giraffe hums.");

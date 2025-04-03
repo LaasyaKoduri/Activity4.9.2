@@ -1,10 +1,16 @@
 /*
  * Activity 4.9.2
  */
+import java.util.ArrayList;
+
 public class ZooKeeperRunner
 {
   public static void main(String[] args)
   { 
+
+    //Step 22 - ArrayList of animal sounds
+    ArrayList<Animal> zoo = new ArrayList<>();
+
     Elephant elephant = new Elephant("leaves, grasses, roots", false, 60.0);
     elephant.eat();
     elephant.isNocturnal();
@@ -29,6 +35,7 @@ public class ZooKeeperRunner
     Owl owl2 = new Owl("mice,insects", true, 4.0);
     owl2.eat();
 
+<<<<<<< HEAD
     //Step 1-4: 4.9.6
     Animal a = new Elephant("leaves, grasses, roots", false, 60.0);
     a.isNocturnal();
@@ -47,6 +54,21 @@ public class ZooKeeperRunner
    
 
      
+=======
+    //Add all animals with sounds to ArrayList zoo
+    zoo.add(new Giraffe("leaves", false, 25));
+    zoo.add(new Elephant("grass", false, 60));
+    zoo.add(new Deer());
+    zoo.add(new Gorilla());
+    zoo.add(new Hippo());
+    zoo.add(new Monkey());
+
+    for(Animal animal : zoo){
+      hearTheAnimal(animal);
+    }
+
+    /* 
+>>>>>>> f09483b9b83e3a9877a757a5d92de6b1e2b62a55
     tiger.swimAlone();
     tiger.huntAlone();
     tiger.isNocturnal();
@@ -55,4 +77,8 @@ public class ZooKeeperRunner
 
     
   }
+  public static void hearTheAnimal(Animal currentAnimal)
+    {
+      currentAnimal.speak();
+    }
 }

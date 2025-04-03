@@ -7,6 +7,10 @@ public class Hippo extends Hooved
     System.out.println("A new hippo arives.");
   }
 
+  //Step 22 - 4.9.5
+  public void speak(){
+    groan();
+  }
 
   public void groan()
   {
