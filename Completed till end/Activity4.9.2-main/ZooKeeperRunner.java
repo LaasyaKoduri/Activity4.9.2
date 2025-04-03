@@ -29,13 +29,29 @@ public class ZooKeeperRunner
     Owl owl2 = new Owl("mice,insects", true, 4.0);
     owl2.eat();
 
-    /* 
+    //Step 1-4: 4.9.6
+    Animal a = new Elephant("leaves, grasses, roots", false, 60.0);
+    a.isNocturnal();
+    /*This call will not work because the trumpet method is not defined for the Animal class. 
+    When considering the is-a relationship, an Animal is not always an elephant.
+    */
+    //a.trumpet();
+
+    //Step 6-7: 4.9.6
+    /* Object a2 = new Animal();
+    a2.sleep();*/
+
+    Animal a1 = new Animal();
+    a1.sleep();
+
+   
+
+     
     tiger.swimAlone();
     tiger.huntAlone();
     tiger.isNocturnal();
     tiger.growl();
     tiger.eat();
-    */
 
     
   }

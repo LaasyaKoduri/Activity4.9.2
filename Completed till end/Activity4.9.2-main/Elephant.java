@@ -21,4 +21,10 @@ public class Elephant extends Animal
     {
       System.out.println("Elephants forage for food.");
     }
+
+    //Step 8: 4.9.6
+      public String toString()
+      {
+        return "This is an object of the Elephant class.";
+      }
 }
