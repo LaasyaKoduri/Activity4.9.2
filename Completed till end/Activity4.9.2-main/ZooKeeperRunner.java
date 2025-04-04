@@ -48,21 +48,21 @@ public class ZooKeeperRunner
     }
 
 
-    //Step 9: 4.9.6
+    //Step 10: 4.9.6
     Object o = new Object();
     System.out.println(o.toString());
     Elephant e = new Elephant("leaves, grasses, roots", false, 60.0);
     System.out.println(e.toString());
 
-    //Step 11: 4.9.6
+    //Step 12: 4.9.6
     Animal a3 = new Animal();
     System.out.println(a3.toString());
 
-    //Step 13: 4.9.6
+    //Step 14: 4.9.6
     Animal a4 = new Elephant("leaves, grasses, roots", false, 60.0);
     System.out.println(a4.toString());
 
-    //Step 15: 4.9.6
+    //Step 16: 4.9.6
     Object o2 = new Elephant("leaves, grasses, roots", false, 60.0);
     System.out.println(o2.toString());
 
